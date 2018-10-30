@@ -1,27 +1,12 @@
-# MsFrontWeb
+# Description
+A simple front-end Angular 6 app that uses the microservice written with Spring (link in Back-end part) that shows students that are subscribed to Trainings. 
+It's used just to understand the linking between Spring boot + cloud dependencies and Angular 6.
+Note that the Spring webservice has more fonctionnalities assured by @RepositoryRestClient but this front-end only has one fontionnality (showing students). 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+# Back-end
+Description + how to run can be found on: https://github.com/AceBlazer/Microservice-Etudiants-Spring
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# How to run 
+Angular 6 needed.
+Download or clone this app and type in terminal: ng serve
+All dependencies are available with the project, no need to download any.
