@@ -9,4 +9,5 @@ Description + how to run can be found on: https://github.com/AceBlazer/Microserv
 # How to run 
 Angular 6 needed.
 Download or clone this app and type in terminal: ng serve
+in navigator type: http://localhost:4200/ (default portunchanged)
 All dependencies are available with the project, no need to download any.
